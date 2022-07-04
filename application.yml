@@ -28,6 +28,10 @@ microservice:
     inventory-service:
      endpoints:
        endpoint:
-         uri: http://INVENTORY-SERVICE/api/v1/product/**        
+         uri: http://INVENTORY-SERVICE/api/v1/product/**
+    auth-service:
+     endpoints:
+       endpoint:
+         uri: http://AUTH-SERVICE/api/v1/login/       
          
          
